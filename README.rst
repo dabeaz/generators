@@ -92,10 +92,6 @@ Part 6 : Feeding the Pipeline
 
 * `genmessages.py <examples/genmessages.py>`_.  Generate UDP messages.
 
-* `genevents.py <examples/genevents.py>`_.  Generate a sequence of events on a set of sockets.
-
-* `genqueue.py <examples/genqueue.py>`_.  Consume items on a queue.
-
 Part 7 : Extending the pipeline
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -105,13 +101,20 @@ Part 7 : Extending the pipeline
 
 * `receivefrom.py <examples/receivefrom.py>`_  Receive a sequence of items from a socket.  Uses genpickle above.
 
+* `genqueue.py <examples/genqueue.py>`_.  Consume items on a queue.
+
+Part 8 : Advanced Data Routing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* `genmulti.py <examples/genmulti.py>`_.  Generate items from more than one generator at once (multiplexing).
+
 * `broadcast.py <examples/broadcast.py>`_  Broadcast a sequence of items to a collection of consumers.
 
 * `netsend.py <examples/netsend.py>`_.  Send items to another host on the network.  Requires a receiver (use receivefrom.py above).
 
-* `genmulti.py <examples/genmulti.py>`_.  Generate items from more than one generator at once (multiplexing).
+* `thrsend.py <examples/thrsend.py>`_.  Send items to multiple consumer threads.
 
-Part 8 : Various Programming Tricks (And Debugging)
+Part 9 : Various Programming Tricks (And Debugging)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * `gentrace.py <examples/gentrace.py>`_.  Example of debugging a generator component.
@@ -122,8 +125,13 @@ Part 8 : Various Programming Tricks (And Debugging)
 
 * `shutdownevt.py <examples/shutdownevt.py>`_.  Shutting down a generator with an event.
 
-Part 9 : Co-routines
-~~~~~~~~~~~~~~~~~~~~
+Part 10: Parsing and Printing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+No sample programs.
+
+Part 11 : Co-routines
+~~~~~~~~~~~~~~~~~~~~~
 
 * `recvcount.py <examples/recvcount.py>`_.  A co-routine example.
 
