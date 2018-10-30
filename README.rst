@@ -17,7 +17,8 @@ functions and generator expressions in the context of systems
 programming.  This topic loosely includes files, file systems, text
 parsing, network programming, and programming with threads.
 
-`Presentation Slides (PDF) <Generators.pdf>`_
+`Presentation Slides (PDF) <Generators.pdf>`_  Also available at
+https://speakerdeck.com/dabeaz/generator-tricks-for-systems-programmers-version-3-dot-0
 
 Code Samples
 ------------
