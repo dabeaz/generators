@@ -20,6 +20,8 @@ parsing, network programming, and programming with threads.
 `Presentation Slides (PDF) <http://www.dabeaz.com/generators/Generators.pdf>`_  Also available at
 https://speakerdeck.com/dabeaz/generator-tricks-for-systems-programmers-version-3-dot-0
 
+Come to Chicago and take a `Course <https://www.dabeaz.com/courses.html>`_. 
+
 Code Samples
 ------------
 
