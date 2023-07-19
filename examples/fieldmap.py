@@ -2,10 +2,9 @@
 #
 # Take a sequence of dictionaries and remap one of the fields
 
-def field_map(dictseq, name, func):
-    for d in dictseq:
-        d[name] = func(d[name])
-        yield d
+ def field_map(dictseq, name, func):
+    for k,v in dictseq.items():
+        yield (k, func(v) if k == name else v)
 
 # Example
 
